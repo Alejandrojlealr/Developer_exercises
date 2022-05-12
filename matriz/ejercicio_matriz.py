@@ -5,6 +5,9 @@
 import numpy as np
 import random
 
+# Lista de numeros consecutivos para pruebas
+#matriz2 = [[11, 12, 13, 14, 15],[25, 26, 27, 28, 50,], [69, 70, 71, 72, 73], [74, 80, 75, 76, 77], [91, 92, 93, 94, 98]]
+
 matriz = np.random.randint(10,99, size =(5,5))
 print(f' Matriz random \n {matriz}')
 matriz2 = matriz.tolist() 
