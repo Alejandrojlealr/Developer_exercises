@@ -11,7 +11,7 @@ def lista_diccionario():
          lista.append(diccionario)
     return lista
 
-print('Lista de diccionarios', lista_diccionario())
+print('Lista de diccionarios \n', lista_diccionario())
 
 # Hacer otra función que reciba lo generado en la primera función y ordenarlo de mayor a
 # menor. Printear el id de la persona más joven y más vieja. Devolver la lista ordenada.
@@ -23,6 +23,6 @@ def ordenar_lista():
     
     print('El ID de la persona de mayor edad es: ', list(id1.values())[0])
     print('El ID de la persona de menor edad es: ', list(id2.values())[0])
-    print('Esta es una lista ordenada decreciente por edad:' , lista_ordenada)
+    print('Esta es una lista ordenada decreciente por edad: \n' , lista_ordenada)
     
 print(ordenar_lista())
